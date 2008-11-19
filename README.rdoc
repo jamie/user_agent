@@ -1,10 +1,13 @@
 = user_agent
 
-* FIX (url)
+* UserAgent Parser (http://github.com/jamie/user_agent)
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Parses user agent strings for browser and operating system names and versions.
+
+Most parsing logic originally came from 
+http://www.texsoft.it/index.php?c=software&m=sw.php.useragent&l=it
 
 == FEATURES/PROBLEMS:
 
@@ -13,14 +16,6 @@ FIX (describe your package)
 == SYNOPSIS:
 
   FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
-
-== INSTALL:
-
-* FIX (sudo gem install, anything else)
 
 == LICENSE:
 
