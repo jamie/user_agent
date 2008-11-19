@@ -112,7 +112,7 @@ private
   # OS Identification
   
   def identify_os
-    @comment_elements = @products[0][2].split(/\s*;\s*/)
+    @comment_elements = @products[0][2].split(/\s*;\s*/) rescue []
     identify_os_windows or
     identify_os_mac or
     identify_os_linux or

@@ -59,5 +59,9 @@ describe UserAgent do
       end
     end
   end
+  
+  it "should handle commentless user agents" do
+    UserAgent.new("asdf").browser.should == 'asdf'
+  end
 
 end
