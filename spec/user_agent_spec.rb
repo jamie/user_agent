@@ -63,5 +63,9 @@ describe UserAgent do
   it "should handle commentless user agents" do
     UserAgent.new("asdf").browser.should == 'asdf'
   end
+  
+  it "should gracefully handle nil values" do
+    UserAgent.new(nil).browser.should == ''
+  end
 
 end

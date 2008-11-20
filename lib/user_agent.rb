@@ -6,6 +6,7 @@ class UserAgent
   
   def initialize(user_agent)
     @user_agent = user_agent
+    return if @user_agent.nil?
     extract_products_from_agent_string
     return if @products.empty?
 
